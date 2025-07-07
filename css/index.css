@@ -9,7 +9,7 @@ nav.floating {
 
 .first-view {
     height: calc(100vh - 110px);
-    background-image: url(../images/index/bg_main.jpg);
+    background-image: url(../images/index/logo.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -172,7 +172,7 @@ img {
         display: block;
         width: 44px;
         height: 34px;
-        background-image: url(../images/common/icon-menu.png);
+        background-image: url(../images/index/icon-menu.png);
         background-size: 50%;
         background-position: center;
         background-repeat: no-repeat;
