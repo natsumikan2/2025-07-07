@@ -28,6 +28,7 @@ nav.floating {
 }
 
 .news-description{
+    margin-top: 5px;
     font-weight: bold;
     font-size: 15px;
 }
