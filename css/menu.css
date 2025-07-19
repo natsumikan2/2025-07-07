@@ -1,0 +1,57 @@
+.menu-section {
+  font-family: "Kaisei Opti", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.menu-section {
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+.title {
+  margin-top: 20px; 
+}
+.menu-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.menu-block.tea {
+  flex-direction: row-reverse;
+}
+
+.menu-text {
+  flex: 1;
+  font-family: 'Kiwi Maru', sans-serif;
+}
+
+.menu-photo img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #8B4513;
+  border-bottom: 2px solid #ccc;
+  margin-top: 1em;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 0.5em 0;
+  border-bottom: 1px dotted #ccc;
+}
+
+.limited {
+  color: #c0392b;
+  font-weight: bold;
+}

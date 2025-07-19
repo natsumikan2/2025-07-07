@@ -1,20 +1,61 @@
-.title {
-    width: 930px;
-    margin-left: auto;
-    margin-right: auto;
+.title{
+    font-family: "Kaisei Opti", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.store {
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fffdf8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: 'Yu Gothic', sans-serif;
 }
 
-.map {
-    width: 930px;
-    max-width: 90%;
-    margin-top: 75px;
-    margin-left: auto;
-    margin-right: auto;
+.store h2 {
+  font-size: 28px;
+  color: #55331b;
 }
 
-.map iframe {
-    display: block;
-    width: 100%;
-    height: 600px;
-    margin-top: 25px;
+.store ul {
+  list-style: none;
+  padding: 0;
+}
+
+.store ul li {
+  margin-bottom: 8px;
+}
+
+.store-content {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-direction: row; 
+  align-items: flex-start;
+}
+
+.store-text {
+  flex: 1;
+}
+
+.store-map {
+  flex: 1;
+}
+
+.store-text h2 {
+  margin-bottom: 12px; 
+}
+
+.store-text ul {
+  list-style: none;      
+  padding: 0;
+  margin-top: 50px;
+}
+.store-text ul li {
+  margin-bottom: 20px;        /* 行間を少し空けると読みやすくなります */
 }
