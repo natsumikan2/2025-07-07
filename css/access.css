@@ -57,5 +57,40 @@
   margin-top: 50px;
 }
 .store-text ul li {
-  margin-bottom: 20px;        /* 行間を少し空けると読みやすくなります */
+  margin-bottom: 20px;        
+}
+
+@media (max-width: 768px) {
+  .store-content {
+    flex-direction: column;   
+    gap: 30px;                
+  }
+
+  .store-text,
+  .store-map {
+    width: 100%;
+    flex: none;               
+  }
+
+  .store {
+    padding: 15px;
+    margin: 20px;
+  }
+
+  .store h2 {
+    font-size: 24px;
+  }
+
+  .store-text ul {
+    margin-top: 30px;
+  }
+
+  .store-text ul li {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  iframe {
+    height: 250px;            
+  }
 }
